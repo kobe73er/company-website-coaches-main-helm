@@ -73,7 +73,7 @@ ingress:
 
   tls:
     - secretName: purocoach-ssl-certificate-secret
-      namespace: company-website-coaches-main-dev
+      namespace: frontend-dev
       hosts:
         - www.purocoach.com/crm-dev
 resources: {}
