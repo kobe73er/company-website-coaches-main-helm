@@ -63,7 +63,7 @@ ingress:
       paths:
         - backend:
             service:
-              name: ecr-secret-nestjs-demo
+              name: company-website-coaches-main
               port:
                 number: 3000
           path: /
