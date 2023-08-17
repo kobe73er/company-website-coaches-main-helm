@@ -59,14 +59,14 @@ ingress:
   # kubernetes.io/ingress.class: nginx
   # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: crm.purocoach.com
+    - host: www.purocoach.com
       paths:
         - backend:
             service:
               name: company-website-coaches-main
               port:
                 number: 3000
-          path: /
+          path: /crm-dev
           pathType: ImplementationSpecific
 
 
