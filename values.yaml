@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: 114018177393.dkr.ecr.us-east-2.amazonaws.com/company-website-coaches-main
+  repository: 114018177393.dkr.ecr.us-east-2.amazonaws.com/purocoach-coach-website-dev
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
